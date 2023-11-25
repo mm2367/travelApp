@@ -1,0 +1,142 @@
+[
+        {
+        "id":0,
+        "name":"Empire State Building",
+        "city":"New York",
+        "country":"USA",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Most Visited", "Random"],
+        "address":"20 West 34th St., New York, NY",
+        "images":["https://www.esbnyc.com/sites/default/files/2020-01/ESB%20Day.jpg","https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/500px-Empire_State_Building_%28aerial_view%29.jpg","https://www.kitano.com/resourcefiles/snippet-main-img/empire-state-building-in-new-york-top.jpg?version=8242023115716","https://blog.bluebeam.com/wp-content/uploads/2022/08/Empire-State-Look-Back-Feature.jpg","https://media.cnn.com/api/v1/images/stellar/prod/130802164459-skyscrapers-gallery-empire-state-building.jpg?q=x_3,y_135,h_1684,w_2994,c_crop/h_720,w_1280/f_webp"],
+        "coordinates":{
+            "lat":"40.7484",
+            "long":"-73.9857"
+        }
+    },
+    {
+        "id":1,
+        "name":"Eiffel Tower",
+        "city":"Paris",
+        "country":"France",
+        "entryPrice":"$50",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Popular","Historical"],
+        "address":"Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+        "images":["https://media.istockphoto.com/id/1297043676/photo/eiffel-tower-in-spring.webp?b=1&s=170667a&w=0&k=20&c=Kd-lFv_FKRI1hUd9CI5hybhVBtNdtbqijtmeT9bwcsw=","https://media.cntraveler.com/photos/58de89946c3567139f9b6cca/16:9/w_2240,c_limit/GettyImages-468366251.jpg","https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/03/25/12/eiffel.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp","https://storage.googleapis.com/pod_public/1300/174595.jpg"],
+        "coordinates":{
+            "lat":"48.8584",
+            "long":"2.2945"
+        }
+    },    
+        {
+        "id":2,
+        "name":"Great Wall of China",
+        "city":"BeiJing",
+        "country":"China",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Recommended","Historical"],
+        "address":"Huairou District, China, 101406",
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/500px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg","https://images.chinahighlights.com/allpicture/2022/04/ef3ffd023d184272a99401d7_cut_800x500_9.jpg","https://www.worldatlas.com/r/w1300-q80/upload/8c/01/be/shutterstock-93984988.jpg","https://www.google.com/imgres?imgurl=https%3A%2F%2Fth-thumbnailer.cdn-si-edu.com%2FBhcvEqZ9XN2wKeaxR90e5y-LGAQ%3D%2Ffit-in%2F1600x0%2Fhttps%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler%2F80%2Ffa%2F80facab4-fe0e-4a56-bd99-a71eb1845fa0%2F01_14_2014_great_wall.jpg&tbnid=9p7Kn1f20JS6YM&vet=12ahUKEwiU3sLOydOCAxXTOt4AHXiFApAQMygbegUIARCqAQ..i&imgrefurl=https%3A%2F%2Fwww.smithsonianmag.com%2Fsmart-news%2Farchaeologists-chart-first-great-wall-china-180949347%2F&docid=bcjDmkbMzsEnXM&w=1599&h=940&q=great%20wall%20of%20china&ved=2ahUKEwiU3sLOydOCAxXTOt4AHXiFApAQMygbegUIARCqAQ"],
+        "coordinates":{
+            "lat":"40.4319",
+            "long":" 116.5704"
+        }
+    },       
+     {
+        "id":3,
+        "name":"Grand Canyon",
+        "city":"Phoenix",
+        "country":"USA",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Popular"],
+        "address":"Grand Canyon Village, AZ 86023",
+        "images":["https://www.americanrivers.org/wp-content/uploads/2022/12/AmyMartin_GC_from_above.jpg","https://www.telegraph.co.uk/content/dam/travel/2023/04/13/TELEMMGLPICT000331957934_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?imwidth=960","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACoV1PYXJ7YkJUI12D0-SoF44oSYjFws_zbyyQRMkEqQvBOKHgkD-6Hl6FK8_Dyydfuk&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSOqB3Cysjo7KVPFhUCLLns1zl6ZyHLvEnIHmYo9d5KnnafAIpKNwXYPRrmpHnO9e4oA&usqp=CAU","https://explorethecanyon.com/wp-content/uploads/2018/01/Secrets-Image-1lr-845x321.jpg"],
+        "coordinates":{
+            "lat":"36.2679",
+            "long":"-112.3535"
+        }
+    },       
+     {
+        "id":4,
+        "name":"Teotihuacan",
+        "city":"San Juan Teotihuacán",
+        "country":"Mexico",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Historical"],
+        "address":"Zona Arqueologica",
+        "images":["https://historia.nationalgeographic.com.es/medio/2023/05/15/istock_1f1795c2_501453380_230515114913_1280x853.jpg","https://media.admagazine.com/photos/6215cb21270b6c35ebf618b2/16:9/w_2240,c_limit/Chichen%20itza%CC%81%20.jpg","https://dam.ngenespanol.com/wp-content/uploads/2021/09/trazado-de-ciudad-teotihuacan.jpg","https://media.cntraveler.com/photos/5a81d38fccc5d25b62a7a1e0/16:9/w_2240,c_limit/Teotihuacan_GettyImages-673487635.jpg","https://elheraldoslp.com.mx/new/wp-content/uploads/2021/08/Teotihuacan-1024x1024.jpg"],
+        "coordinates":{
+            "lat":"19.6861",
+            "long":"-98.8716"
+        }
+    },        {
+        "id":5,
+        "name":"colosseum",
+        "city":"Rome",
+        "country":"Italy",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Most Visited","Historical"],
+        "address":"Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+        "images":["https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1652340658/EducationHub/photos/colosseum.jpg","https://media.architecturaldigest.com/photos/64526b147ae2e42df7436f42/16:9/w_2240,c_limit/GettyImages-1442286876.jpg","https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/FL290_Rome_blog_banner-606x303.jpg.webp","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEuZ-fJIplWc8AiXAr8iS-YVK3cp2aoA26Ybck7jknFG3M50VXdzXNVgYuZveLRv2jqM&usqp=CAU"],
+        "coordinates":{
+            "lat":"41.8902",
+            "long":"12.4922"
+        }
+    },        {
+        "id":6,
+        "name":"Taj Mahal",
+        "city":"Agra",
+        "country":"India",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Most Viewed", "Trending"],
+        "address":" Agra, Uttar Pradesh, India",
+        "images":["https://s3.amazonaws.com/files.gofox.com/wp-content/uploads/2020/03/New-Delhi-India.jpg","https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2016/06/30/ba318890-39de-11e6-9a6a-3421f730b241_1280x720.JPG?itok=EG1Ou-_J","https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_660,h_330/https://www.entornoturistico.com/wp-content/uploads/2022/09/Que%CC%81-es-el-Taj-Mahal-660x330.jpg","https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/08/HERO_People-in-the-Taj-Mahal-Garden_Credit_GettyImages-541340556.jpg?resize=1220,480"],
+        "coordinates":{
+            "lat":"27.1751",
+            "long":"78.0421"
+        }
+    },        {
+        "id":7,
+        "name":"Lourve Museum",
+        "city":"Paris",
+        "country":"France",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Most Visited"],
+        "address":"75001 Paris, France",
+        "images":["https://media.architecturaldigest.com/photos/5900cc370638dd3b70018b33/16:9/w_2240,c_limit/Secrets%20of%20Louvre%201.jpg","https://miro.medium.com/v2/resize:fit:1400/format:webp/1*W3p4Zi6lDU2Hv5acAOYkOQ.jpeg","https://www.planetware.com/photos-large/F/france-louvre-museum-night.jpg","https://media.npr.org/assets/img/2021/03/29/gettyimages-1193604575_custom-41849d240200da7ff86478a110cb60db3e988b4a-s1600-c85.webp","https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/dfzignnjtbn2z0jgucea.webp"],
+        "coordinates":{
+            "lat":"48.86064",
+            "long":"2.3376"
+        }
+    },        {
+        "id":8,
+        "name":"Sydney Opera House",
+        "city":"Sydney",
+        "country":"Austraila",
+        "entryPrice":"$60",
+        "openingTime":"9:00AM",
+        "closingTime":"7:00PM",
+        "categories":["Most Visited", "Trending"],
+        "address":"Bennelong Point, Sydney NSW 2000, Australia",
+        "images":["https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/The_Sydney_Opera_House_at_dusk.jpg/540px-The_Sydney_Opera_House_at_dusk.jpg","https://cdn.britannica.com/85/95085-050-C749819D/Sydney-Opera-House-Bennelong-Point-Port-Jackson.jpg?w=300","https://assets.atdw-online.com.au/images/082abec166a817adfae646daff53ad70.jpeg?rect=0%2C0%2C2048%2C1536&w=745&h=559&&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjU2YjIzYzkyZDVmMTU2NTA0NWQ4MTBkMiIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwYzgiLCJhcGlrZXlJZCI6IjU2YjFlZTU5MGNmMjEzYWQyMGRjNTgxOSJ9","https://rics.scene7.com/is/image/rics/Modus_july22_sydneyoperahouse_landscape_header?$article-big-img-desktop$&op_sharpen=1"],
+        "coordinates":{
+            "lat":"33.8568",
+            "long":"151.2153"
+        }
+    }
+]

@@ -6,38 +6,37 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  useColorScheme,
-} from 'react-native';
-
-import {
-  Colors,
-
-} from 'react-native/Libraries/NewAppScreen';
+import { createStackNavigator } from '@react-navigation/stack';
+import {StyleSheet,useColorScheme,} from 'react-native';
+import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
+import 'react-native-gesture-handler';
+import AttractionDetails from './src/Screens/AttractionDetails';
+import Gallery from './src/Screens/Gallery';
 import Home from './src/Screens/Home';
-import { Categories } from './src/Components/Categories';
+import MapScreen from './src/Screens/MapScreen';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+const Stack = createStackNavigator();
 
-
-function App(): JSX.Element {
+const App=(): JSX.Element =>{
+  const appTheme={
+    ...DefaultTheme,
+    colors:{
+      ...DefaultTheme.colors,
+      background:'white'
+    }
+  }
   const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
-    <SafeAreaView style={styles.safeView}>
-      <Home/>
-    </SafeAreaView>
+
+      <NavigationContainer theme={appTheme}>
+      <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Screen component={Home} name="Home"/>
+        <Stack.Screen component={AttractionDetails} name="AttractionDetails"/>
+        <Stack.Screen component={Gallery} name="Gallery"/>
+        <Stack.Screen component={MapScreen} name="MapScreen"/>
+      </Stack.Navigator>
+    </NavigationContainer>
+
 
   );
 }

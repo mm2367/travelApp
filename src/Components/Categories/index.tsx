@@ -15,14 +15,14 @@ export const Categories=(props:CategoriesProps)=>{
         data={props.categories} 
         horizontal 
         showsHorizontalScrollIndicator={false}
-        style={styles.flatListMargin}
+        style={styles.flatListStyles}
         renderItem={({item,index})=>{
             return(
-            <TouchableOpacity onPress={()=>props.onCategorySelect(index)} style={[styles.itemContainer, props.selectedCategory===index? styles.selectItemContainer:null]}>
+            <Pressable onPress={()=>props.onCategorySelect(index)} style={[styles.itemContainer, props.selectedCategory===index? styles.selectItemContainer:null,index===0? {marginLeft:32}:null]}>
             <Text style={[styles.item, props.selectedCategory===index?styles.selectedItem:null]}>
                 {item}
             </Text>
-            </TouchableOpacity>
+            </Pressable>
             )
         }}
         />

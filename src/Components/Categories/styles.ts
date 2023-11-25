@@ -9,9 +9,6 @@ export const styles =StyleSheet.create({
         textAlign:'center',
         lineHeight:14.52,
         overflow:'scroll',
-
-
-
     },
     selectedItem:{
         fontWeight:'600',
@@ -19,14 +16,14 @@ export const styles =StyleSheet.create({
     },
     itemContainer:{
         marginRight:17,
-        marginVertical:8
+        marginVertical:0,
 
     },
     selectItemContainer:{
         borderBottomColor:'#4681A3',
         borderBottomWidth:1
     },
-    flatListMargin:{
-        marginRight:-30
+    flatListStyles:{
+        marginBottom:20
     }
 })
